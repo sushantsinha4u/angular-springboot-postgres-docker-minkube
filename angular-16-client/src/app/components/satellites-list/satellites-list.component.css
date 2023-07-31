@@ -1,0 +1,14 @@
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.table tr.active td {
+  background-color:
+#62a4b4 !important;
+  color:
+white;
+}

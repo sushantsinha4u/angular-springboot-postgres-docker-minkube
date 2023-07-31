@@ -1,0 +1,106 @@
+<div *ngIf="viewMode; else editable">
+  <div *ngIf="currentSatellite.id">
+    <h4>Satellite</h4>
+    <div>
+      <label><strong>Category:</strong></label> {{ currentSatellite.category }}
+    </div>
+    <div>
+      <label><strong>Description:</strong></label>
+      {{ currentSatellite.description }}
+    </div>
+    <div>
+      <label><strong>Status:</strong></label>
+      {{ currentSatellite.launched ? "Launched" : "UnLaunched" }}
+    </div>
+
+    <a class="badge badge-warning"
+      routerLink="/satellites/{{ currentSatellite.id }}">
+      Edit
+    </a>
+  </div>
+
+  <div *ngIf="!currentSatellite">
+    <br />
+    <p>Please click on a Satellite...</p>
+  </div>
+</div>
+
+<ng-template #editable>
+  <div *ngIf="currentSatellite.id" class="edit-form">
+    <h4>Satellites</h4>
+    <form>
+      <div class="form-group">
+        <label for="category">Type</label>
+        <input
+          type="text"
+          class="form-control"
+          id="category"
+          [(ngModel)]="currentSatellite.category"
+          name="category"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          [(ngModel)]="currentSatellite.name"
+          name="name"
+        />
+      </div>
+
+
+
+      <div class="form-group">
+        <label for="description">Description</label>
+        <input
+          type="text"
+          class="form-control"
+          id="description"
+          [(ngModel)]="currentSatellite.description"
+          name="description"
+        />
+      </div>
+
+      <div class="form-group">
+        <label><strong>Status:</strong></label>
+        {{ currentSatellite.launched ? "Launched" : "UnLaunched" }}
+      </div>
+    </form>
+
+    <button
+      class="badge badge-primary mr-2"
+      *ngIf="currentSatellite.launched"
+      (click)="updateLaunched(false)"
+    >
+    UnLaunch
+    </button>
+    <button
+      *ngIf="!currentSatellite.launched"
+      class="badge badge-primary mr-2"
+      (click)="updateLaunched(true)"
+    >
+      Launch
+    </button>
+
+    <button class="badge badge-danger mr-2" (click)="deleteSatellite()">
+      Delete
+    </button>
+
+    <button
+      type="submit"
+      class="badge badge-success mb-2"
+      (click)="updateSatellite()"
+    >
+      Update
+    </button>
+    <p>{{ message }}</p>
+  </div>
+
+  <div *ngIf="!currentSatellite.id">
+    <br />
+    <p>Cannot access this Satellite...</p>
+  </div>
+</ng-template>

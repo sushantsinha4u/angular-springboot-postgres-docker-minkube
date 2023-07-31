@@ -1,0 +1,122 @@
+sudo apt-get remove nodejs npm node
+sudo apt-get purge nodejs
+Now remove .node and .npm folders from your system
+
+sudo rm -rf /usr/local/bin/npm 
+sudo rm -rf /usr/local/share/man/man1/node* 
+sudo rm -rf /usr/local/lib/dtrace/node.d 
+sudo rm -rf ~/.npm 
+sudo rm -rf ~/.node-gyp 
+sudo rm -rf /opt/local/bin/node 
+sudo rm -rf opt/local/include/node 
+sudo rm -rf /opt/local/lib/node_modules  
+
+sudo rm -rf /usr/local/lib/node*
+sudo rm -rf /usr/local/include/node*
+sudo rm -rf /usr/local/bin/node*
+Go to home directory and remove any node or node_modules directory, if exists.
+
+You can verify your uninstallation by these commands; they should not output anything.
+
+which node
+which nodejs
+which npm
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+Remove docker completly
+
+dpkg -l | grep -i docker
+sudo apt remove --purge docker-ce docker-ce-cli containerd.io
+sudo rm -rf /var/lib/docker
+sudo rm -rf /var/lib/containerd
+sudo apt autoremove -y
+sudo apt autoclean
+
+
+
+
+
+sudo docker stop $(sudo docker ps -aq)
+sudo docker rm $(sudo docker ps -aq)
+sudo docker rmi $(sudo docker images -q)
+
+
+
+export POSTGRESDBURL=jdbc:postgresql://localhost:5432/postgres
+
+export POSTGRESUSER=postgres
+
+export POSTGRESPASSWORD=admin
+
+
+sudo docker run --name postgres  -v postgres_data:/var/lib/postgresql/data  -p 5432:5432  -e POSTGRES_PASSWORD=admin -d postgres    
+mvn clean install
+
+sudo docker compose up -d
+
+sudo docker run -e POSTGRESDBURL=jdbc:postgresql://172.17.0.2:5432/postgres  -e POSTGRESUSER=postgres   -v postgres_data:/var/lib/postgresql/data  -e POSTGRESPASSWORD=admin  -p 9090:8080  spring-boot-server-app
+	
+	
+
+
+
+
+docker tag  spring-boot-server-app  0906/spring-boot-repo:latest
+
+docker image push --all-tags 0906/spring-boot-repo
+
+kubectl create -f postgres-pvc-pv.yml -n default
+
+kubectl create -f postgres-config.yml -n default
+
+kubectl create -f postgres.yml -n default
+
+kubectl create -f springbootpostgresql.yml -n default
+
+kubectl port-forward  springbootpostgresql-pod 8080:8080
+
+
+
+
+
+
+kubectl delete -f postgres-pvc-pv.yml -n default
+
+kubectl delete -f postgres-config.yml -n default
+
+kubectl delete -f postgres.yml -n default
+
+kubectl delete -f springbootpostgresql.yml -n default
+
+
+
+
+============================
+
+
+sudo docker run -p 5432:5432 --name postgres -e POSTGRES_PASSWORD=admin -d  postgres                                                                                      -----without persistence storage
+sudo docker run --name postgres  -v postgres_data:/var/lib/postgresql/data  -p 5432:5432  -e POSTGRES_PASSWORD=admin -d postgres                     ---------with persistence storage
+./mvnw spring-boot:build-image
+	sudo docker compose up -d
+sudo docker run -e POSTGRESDBURL=jdbc:postgresql://172.17.0.2:5432/postgres  -e POSTGRESUSER=postgres   -v postgres_data:/var/lib/postgresql/data  -e POSTGRESPASSWORD=admin -p 8081:8080 customerselfmanagementbackend-app
+
+
+
+
+
+
+
+ng serve --open 
+
+=================================
+
+
+
+
+
+curl -H "Origin: http://localhost:4200/employees"   -H  "Access-Control-Request-Method: GET"   -H  "Access-Control-Request-Headers: X-Requested-With"   -X OPTIONS -  -verbose   http://172.17.0.3:8080/api/employees

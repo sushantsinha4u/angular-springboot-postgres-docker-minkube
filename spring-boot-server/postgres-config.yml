@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-config
+  labels:
+    app: postgres
+data:
+  POSTGRESDBURL: jdbc:postgresql://10.244.0.18:5432/postgres
+  POSTGRESUSER: postgres
+  POSTGRESPASSWORD: admin

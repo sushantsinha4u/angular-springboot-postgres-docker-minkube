@@ -1,0 +1,53 @@
+<div class="list row">
+  <div class="col-md-8">
+    <div class="input-group mb-3">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Search by Category"
+        [(ngModel)]="category" />
+      <div class="input-group-append">
+        <button
+          class="btn btn-outline-secondary"
+          type="button"
+          (click)="searchTitle()">
+          Search
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="container p-5">
+      <h1 class="text-center mt-5 mb-5">List of Satellites</h1>
+      <table class="table table-striped table-bordered table-sm row-border hover" id="datatableexample">
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Launched</th>
+            </tr>
+          </thead>
+          <tbody>
+           <tr *ngFor="let satellite of satellites  let i = index"
+           [class.active]="i == currentIndex"
+           (click)="setActiveSatellite(satellite, i)">
+                 <td>{{satellite.category}}</td>
+                 <td>{{satellite.name}}</td>
+                 <td>{{satellite.description}}</td>
+                 <td>{{satellite.launched}}</td>
+             </tr>
+          </tbody>
+        </table>
+  </div>
+    <button class="m-3 btn btn-sm btn-danger" (click)="removeAllSatellites()">
+      Remove All Items
+    </button>
+  </div>
+  <div class="col-md-6">
+    <app-satellite-details
+      [viewMode]="true"
+      [currentSatellite]="currentSatellite"
+    ></app-satellite-details>
+  </div>
+</div>

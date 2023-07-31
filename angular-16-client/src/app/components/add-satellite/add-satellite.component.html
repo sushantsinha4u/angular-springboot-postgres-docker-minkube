@@ -1,0 +1,47 @@
+<div>
+  <div class="submit-form">
+    <div *ngIf="!submitted">
+      <div class="form-group">
+        <label for="category">Category of Satellite</label>
+        <input
+          type="text"
+          class="form-control"
+          id="category"
+          required
+          [(ngModel)]="satellite.category"
+          name="category"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="name">Name of Satellite</label>
+        <input
+          class="form-control"
+          id="name"
+          required
+          [(ngModel)]="satellite.name"
+          name="name"
+        />
+      </div>
+
+
+      <div class="form-group">
+        <label for="description">Description</label>
+        <input
+          class="form-control"
+          id="description"
+          required
+          [(ngModel)]="satellite.description"
+          name="description"
+        />
+      </div>
+
+      <button (click)="saveSatellite()" class="btn btn-success">Submit</button>
+    </div>
+
+    <div *ngIf="submitted">
+      <h4>Satellite details was submitted successfully!</h4>
+      <button class="btn btn-success" (click)="newSatellite()">Add</button>
+    </div>
+  </div>
+</div>

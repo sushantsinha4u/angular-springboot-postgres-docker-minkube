@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+      name: springbootpostgresql-pod
+spec:
+      containers:
+      - name: springbootpostgresql-container01
+        image: 0906/spring-boot-repo
+        env:
+        - name : POSTGRESDBURL
+          value: jdbc:postgresql://10.104.239.44:5432/postgres
+        - name : POSTGRESUSER
+          value: postgres  
+        - name : POSTGRESPASSWORD
+          value: admin

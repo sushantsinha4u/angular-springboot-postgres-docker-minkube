@@ -1,0 +1,116 @@
+src/main/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplication.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplication.java:9:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplication.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplication.java:11:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:27:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:27:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:30:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'satelliteRepository'
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:30:	LongVariable:	LongVariable: Avoid excessively long variable names like satelliteRepository
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:33:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'satelliteService'
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:33:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:36:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:36:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'category' is not assigned and could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:38:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'satellites' could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:40:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:42:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:43:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:44:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:50:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:50:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:50:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'satelliteData' could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:53:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:61:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:63:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:64:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:71:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:71:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:71:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'satellite' is not assigned and could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:71:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:77:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:77:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:77:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:80:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:81:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:88:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:91:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:92:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:100:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:102:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'satellites' could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:104:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:106:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/poc/spring/jpa/postgresql/controller/SatelliteController.java:107:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/poc/spring/jpa/postgresql/model/Satellites.java:15:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/poc/spring/jpa/postgresql/model/Satellites.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/poc/spring/jpa/postgresql/model/Satellites.java:19:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/poc/spring/jpa/postgresql/model/Satellites.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/poc/spring/jpa/postgresql/model/Satellites.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/poc/spring/jpa/postgresql/model/Satellites.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/poc/spring/jpa/postgresql/model/Satellites.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/poc/spring/jpa/postgresql/model/Satellites.java:36:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/poc/spring/jpa/postgresql/model/Satellites.java:36:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/poc/spring/jpa/postgresql/model/Satellites.java:40:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/poc/spring/jpa/postgresql/model/Satellites.java:40:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'category' is not assigned and could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/model/Satellites.java:40:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'description' is not assigned and could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/model/Satellites.java:40:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'launched' is not assigned and could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/model/Satellites.java:40:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/repository/SatelliteRepository.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/poc/spring/jpa/postgresql/repository/SatelliteRepository.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/poc/spring/jpa/postgresql/repository/SatelliteRepository.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:17:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:17:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:19:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'satelliteRepository'
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:19:	LongVariable:	LongVariable: Avoid excessively long variable names like satelliteRepository
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:21:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:21:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'category' is not assigned and could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:22:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'satellites' could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:22:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ArrayList<>()`
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:24:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:26:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:32:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'satellite' is not assigned and could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:32:	UnusedPrivateMethod:	UnusedPrivateMethod: Avoid unused private methods such as 'updateSatellites(long, Satellites)'.
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:33:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'satelliteData' could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:34:	LocalVariableNamingConventions:	LocalVariableNamingConventions: The local variable name '_satellite' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:43:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:50:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:50:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'launched' is not assigned and could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'satellites' could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:51:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'satellites'
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:56:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:56:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:56:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:60:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:66:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:66:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'satellite' is not assigned and could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:67:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:73:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:73:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/poc/spring/jpa/postgresql/service/SatelliteService.java:73:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:27:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:27:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:33:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'satListJson'
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:33:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:33:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'satListJson'
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:34:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'satList'
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:34:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'satList'
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:35:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'satListTest'
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:35:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:36:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'satellite'
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:36:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:38:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'category'
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:41:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:45:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new TypeReference<>()`
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:54:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:54:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:54:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The getter 'getAllSatellitesTest' should not return void linguistically
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:81:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:81:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:81:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The getter 'getSatellitesByCategoryTest' should not return void linguistically
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:85:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'satListFilter' could be declared final
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:95:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/poc/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests.java:99:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'satelliteTest' could be declared final

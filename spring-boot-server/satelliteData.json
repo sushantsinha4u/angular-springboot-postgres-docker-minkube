@@ -1,0 +1,16 @@
+[
+	{"id":58,"category":"MEO",
+	"name":"Yoga-R15",
+	"description":"Flexible to give support to defense system",
+	"launched":true},
+	{"id":56,
+	"category":"LEO",
+	"name":"O3b mPower Telenetworking & Networking",
+	"description":"O3b mPower Telenetworking is the braodcasting satellite all over the world",
+	"launched":false},	
+	{"id":57,
+	"category":"GEO",
+	"name":"SISU-X031",
+	"description":"Covering the mediterranean and landscapes worlwide",
+	"launched":true}
+]

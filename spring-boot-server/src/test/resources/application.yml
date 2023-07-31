@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: ${POSTGRESDBURL}
+    username: ${POSTGRESUSER}
+    password: ${POSTGRESPASSWORD}
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  
